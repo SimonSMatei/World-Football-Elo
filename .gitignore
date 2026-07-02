@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.env
+.venv
+
+# TO DO: add path (ex: !src/soccer_elo/data/matches.db) here to make sure git doesn't ignore later databases

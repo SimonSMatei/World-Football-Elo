@@ -1,0 +1,48 @@
+[build-system]
+
+requires = ["hatchling >= 1.26"]
+
+build-backend = "hatchling.build"
+
+[project]
+
+name = "world_football_elo"
+
+version = "0.1.0"
+
+authors = [
+
+  { name="SimonSMatei", email="simonsamuelmatei2007@gmail.com" },
+
+]
+
+description = "A historical Elo rating engine for international football (soccer), engineered to generate unbiased time-series datasets for predictive machine learning pipelines."
+
+readme = "README.md"
+
+requires-python = ">=3.11"
+
+classifiers = [
+
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+
+]
+
+dependencies = [
+    
+]
+
+license = "MIT"
+
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+
+Homepage = "https://github.com/SimonSMatei/World-Football-Elo"
+
+Issues = "https://github.com/SimonSMatei/World-Football-Elo/issues"
+
+[tool.hatch.build.targets.wheel]
+
+packages = ["src/world_football_elo"]
