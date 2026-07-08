@@ -30,7 +30,7 @@ classifiers = [
 ]
 
 dependencies = [
-    
+    "pandas>=3.0.0",
 ]
 
 license = "MIT"
