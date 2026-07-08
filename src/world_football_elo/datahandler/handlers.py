@@ -2,8 +2,10 @@ import sqlite3
 import pandas as pd
 from pathlib import Path
 
-def load_matches(data_path: Path, start_date: str | None = None, end_date: str | None = None) -> pd.DataFrame:
-    conn = sqlite3.connect(data_path)
+DATA_PATH = Path(__file__).parent.parent / "data" / "international_football_data.db"
+
+def load_matches(start_date: str | None = None, end_date: str | None = None) -> pd.DataFrame:
+    conn = sqlite3.connect(DATA_PATH)
 
     
     conditions = []
