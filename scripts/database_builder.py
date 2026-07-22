@@ -39,7 +39,7 @@ def get_winner(row: pd.Series) -> str | None:
     else:
         return None
 
-def get_goal_dif(row: pd.Series) -> int:
+def get_goal_diff(row: pd.Series) -> int:
 
     if pd.isna(row["match_winner"]):
 
@@ -53,6 +53,33 @@ def get_goal_dif(row: pd.Series) -> int:
 
         return row["away_score"] - row["home_score"]
 
+def remove_tournaments(file_name: str, results: pd.DataFrame) -> pd.DataFrame:
+    file = PARENT_PATH / 'Scripts' / file_name
+
+    tournaments = []
+
+    with open(file) as f:
+        for line in f:
+            tournaments.append(line.strip('\n'))
+
+    results = results[~results["tournament"].isin(tournaments)]
+
+    return results
+
+def remove_teams(file_name: str, results: pd.DataFrame) -> pd.DataFrame:
+    file = PARENT_PATH / "Scripts" / file_name
+
+    teams = []
+
+    with open(file, encoding = "utf=8") as f:
+        for line in f:
+            teams.append(line.strip('\n'))
+    
+    results = results[results['home_team'].isin(teams) & results['away_team'].isin(teams)]
+
+    return results
+
+
 def build_database(results: pd.DataFrame) -> None:
     conn = sqlite3.connect(PARENT_PATH / "src" / "world_football_elo" / "data" / "international_football_data.db")
     cursor = conn.cursor()
@@ -62,9 +89,14 @@ def build_database(results: pd.DataFrame) -> None:
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS teams(
             team_name TEXT PRIMARY KEY,
-            matches_played INTEGER DEFAULT 0,
-            is_provisional BOOLEAN DEFAULT 1,
-            current_elo REAL DEFAULT 1000.0
+            matches_played INTEGER,
+            matches_won INTEGER,
+            matches_lost INTEGER,
+            matches_tied INTEGER,
+            current_elo INTEGER,
+            form REAL,
+            is_provisional BOOLEAN,
+            provisional_avg_elo REAL
         )
     """)
 
@@ -72,8 +104,14 @@ def build_database(results: pd.DataFrame) -> None:
         CREATE TABLE IF NOT EXISTS snapshots(
             date TEXT,
             team_name TEXT,
-            elo_rating REAL,
-            form_delta REAL
+            elo_rating INTEGER,
+            form REAL,
+            matches_played INTEGER,
+            matches_won INTEGER,
+            matches_lost INTEGER,
+            matches_tied INTEGER,
+            is_provisional BOOLEAN,
+            provisional_avg_elo REAL
         )
     """)   
 
@@ -92,9 +130,12 @@ def build_database(results: pd.DataFrame) -> None:
 if __name__ == "__main__":
     results = load_data()
     results["match_winner"] = results.apply(get_winner, axis=1)
-    results["goal_dif"] = results.apply(get_goal_dif, axis=1)
+    results["goal_diff"] = results.apply(get_goal_diff, axis=1)
 
     results = results.drop(columns = ["winner", "first_shooter"])
+
+    results = remove_tournaments("tournament_blacklist.txt", results)
+    results = remove_teams("fifa_teams.txt", results)
 
     results.to_csv(DATA_PATH / "final_results.csv", index=False)
 

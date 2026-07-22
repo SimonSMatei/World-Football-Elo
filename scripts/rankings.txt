@@ -1,0 +1,211 @@
+1 - Country: Argentina 	 Elo: 1681
+2 - Country: Spain 	 Elo: 1619
+3 - Country: France 	 Elo: 1553
+4 - Country: England 	 Elo: 1512
+5 - Country: Colombia 	 Elo: 1511
+6 - Country: Brazil 	 Elo: 1495
+7 - Country: Portugal 	 Elo: 1479
+8 - Country: Morocco 	 Elo: 1466
+9 - Country: Ecuador 	 Elo: 1441
+10 - Country: Uruguay 	 Elo: 1438
+11 - Country: Netherlands 	 Elo: 1435
+12 - Country: Japan 	 Elo: 1429
+13 - Country: Germany 	 Elo: 1428
+14 - Country: Mexico 	 Elo: 1420
+15 - Country: Croatia 	 Elo: 1401
+16 - Country: Belgium 	 Elo: 1396
+17 - Country: Senegal 	 Elo: 1380
+18 - Country: Iran 	 Elo: 1373
+19 - Country: Turkey 	 Elo: 1370
+20 - Country: Switzerland 	 Elo: 1363
+21 - Country: Australia 	 Elo: 1359
+22 - Country: Norway 	 Elo: 1354
+23 - Country: Nigeria 	 Elo: 1351
+24 - Country: Algeria 	 Elo: 1349
+25 - Country: Italy 	 Elo: 1347
+26 - Country: South Korea 	 Elo: 1341
+27 - Country: Paraguay 	 Elo: 1325
+28 - Country: Austria 	 Elo: 1323
+29 - Country: Denmark 	 Elo: 1321
+30 - Country: Canada 	 Elo: 1317
+31 - Country: Uzbekistan 	 Elo: 1298
+32 - Country: Russia 	 Elo: 1286
+33 - Country: Ivory Coast 	 Elo: 1285
+34 - Country: United States 	 Elo: 1283
+35 - Country: Ukraine 	 Elo: 1278
+36 - Country: Panama 	 Elo: 1270
+37 - Country: Egypt 	 Elo: 1258
+38 - Country: Czech Republic 	 Elo: 1255
+39 - Country: Venezuela 	 Elo: 1254
+40 - Country: Chile 	 Elo: 1246
+41 - Country: Jordan 	 Elo: 1242
+42 - Country: DR Congo 	 Elo: 1239
+43 - Country: Scotland 	 Elo: 1239
+44 - Country: Serbia 	 Elo: 1226
+45 - Country: Peru 	 Elo: 1219
+46 - Country: Greece 	 Elo: 1211
+47 - Country: Cameroon 	 Elo: 1205
+48 - Country: Poland 	 Elo: 1205
+49 - Country: Iraq 	 Elo: 1205
+50 - Country: Mali 	 Elo: 1204
+51 - Country: Hungary 	 Elo: 1198
+52 - Country: Sweden 	 Elo: 1194
+53 - Country: Tunisia 	 Elo: 1181
+54 - Country: Honduras 	 Elo: 1180
+55 - Country: Costa Rica 	 Elo: 1179
+56 - Country: Kosovo 	 Elo: 1165.6
+57 - Country: New Zealand 	 Elo: 1163
+58 - Country: Slovenia 	 Elo: 1163
+59 - Country: Haiti 	 Elo: 1159
+60 - Country: Saudi Arabia 	 Elo: 1158
+61 - Country: Slovakia 	 Elo: 1157
+62 - Country: Republic of Ireland 	 Elo: 1151
+63 - Country: Georgia 	 Elo: 1148
+64 - Country: South Africa 	 Elo: 1147
+65 - Country: United Arab Emirates 	 Elo: 1147
+66 - Country: Wales 	 Elo: 1139
+67 - Country: Bolivia 	 Elo: 1133
+68 - Country: Romania 	 Elo: 1130
+69 - Country: Burkina Faso 	 Elo: 1116
+70 - Country: Jamaica 	 Elo: 1110
+71 - Country: Israel 	 Elo: 1109
+72 - Country: Guatemala 	 Elo: 1103
+73 - Country: Albania 	 Elo: 1099
+74 - Country: Cape Verde 	 Elo: 1097
+75 - Country: Northern Ireland 	 Elo: 1083
+76 - Country: Palestine 	 Elo: 1082
+77 - Country: Ghana 	 Elo: 1080
+78 - Country: Oman 	 Elo: 1080
+79 - Country: Angola 	 Elo: 1080
+80 - Country: Bosnia and Herzegovina 	 Elo: 1077
+81 - Country: Syria 	 Elo: 1075
+82 - Country: Iceland 	 Elo: 1069
+83 - Country: Guinea 	 Elo: 1067
+84 - Country: North Macedonia 	 Elo: 1063
+85 - Country: Qatar 	 Elo: 1050
+86 - Country: Zambia 	 Elo: 1050
+87 - Country: Curaçao 	 Elo: 1044
+88 - Country: China 	 Elo: 1035
+89 - Country: Bahrain 	 Elo: 1033
+90 - Country: Finland 	 Elo: 1026
+91 - Country: Thailand 	 Elo: 1026
+92 - Country: New Caledonia 	 Elo: 1024
+93 - Country: Belarus 	 Elo: 1020
+94 - Country: Suriname 	 Elo: 1017
+95 - Country: Benin 	 Elo: 1017
+96 - Country: Gambia 	 Elo: 1015
+97 - Country: Gabon 	 Elo: 1001
+98 - Country: Guyana 	 Elo: 997
+99 - Country: Trinidad and Tobago 	 Elo: 995
+100 - Country: Libya 	 Elo: 993
+101 - Country: Uganda 	 Elo: 990
+102 - Country: Malaysia 	 Elo: 986
+103 - Country: Vietnam 	 Elo: 985
+104 - Country: Nicaragua 	 Elo: 985
+105 - Country: Indonesia 	 Elo: 984
+106 - Country: Togo 	 Elo: 982
+107 - Country: North Korea 	 Elo: 980
+108 - Country: Mozambique 	 Elo: 979
+109 - Country: Dominican Republic 	 Elo: 975
+110 - Country: Madagascar 	 Elo: 972
+111 - Country: Bulgaria 	 Elo: 970
+112 - Country: Tahiti 	 Elo: 968
+113 - Country: El Salvador 	 Elo: 964
+114 - Country: Niger 	 Elo: 963
+115 - Country: Tajikistan 	 Elo: 962
+116 - Country: Comoros 	 Elo: 960.4
+117 - Country: Kuwait 	 Elo: 959
+118 - Country: Montenegro 	 Elo: 957.8
+119 - Country: Sudan 	 Elo: 946
+120 - Country: Zimbabwe 	 Elo: 946
+121 - Country: Lebanon 	 Elo: 944
+122 - Country: Tanzania 	 Elo: 944
+123 - Country: Kyrgyzstan 	 Elo: 942
+124 - Country: Kazakhstan 	 Elo: 939
+125 - Country: Mauritania 	 Elo: 938
+126 - Country: Equatorial Guinea 	 Elo: 936
+127 - Country: Rwanda 	 Elo: 936
+128 - Country: Sierra Leone 	 Elo: 932
+129 - Country: Kenya 	 Elo: 931
+130 - Country: Malawi 	 Elo: 921
+131 - Country: Namibia 	 Elo: 916
+132 - Country: Liberia 	 Elo: 910
+133 - Country: Luxembourg 	 Elo: 904
+134 - Country: Cuba 	 Elo: 903
+135 - Country: Botswana 	 Elo: 899
+136 - Country: Puerto Rico 	 Elo: 899
+137 - Country: Saint Vincent and the Grenadines 	 Elo: 893
+138 - Country: Lesotho 	 Elo: 891
+139 - Country: Ethiopia 	 Elo: 886
+140 - Country: Estonia 	 Elo: 877
+141 - Country: Burundi 	 Elo: 874
+142 - Country: Turkmenistan 	 Elo: 871
+143 - Country: Fiji 	 Elo: 868
+144 - Country: Armenia 	 Elo: 866
+145 - Country: Azerbaijan 	 Elo: 862
+146 - Country: Guinea-Bissau 	 Elo: 856
+147 - Country: Vanuatu 	 Elo: 856
+148 - Country: Central African Republic 	 Elo: 854
+149 - Country: Philippines 	 Elo: 853
+150 - Country: Bermuda 	 Elo: 845
+151 - Country: Faroe Islands 	 Elo: 836
+152 - Country: Papua New Guinea 	 Elo: 833
+153 - Country: Eswatini 	 Elo: 825
+154 - Country: Congo 	 Elo: 823
+155 - Country: Solomon Islands 	 Elo: 819
+156 - Country: Hong Kong 	 Elo: 818
+157 - Country: Singapore 	 Elo: 815
+158 - Country: Eritrea 	 Elo: 813
+159 - Country: Yemen 	 Elo: 810
+160 - Country: Cyprus 	 Elo: 796
+161 - Country: Saint Kitts and Nevis 	 Elo: 791
+162 - Country: Lithuania 	 Elo: 781
+163 - Country: Aruba 	 Elo: 776
+164 - Country: Malta 	 Elo: 773
+165 - Country: Grenada 	 Elo: 773
+166 - Country: Saint Lucia 	 Elo: 771
+167 - Country: Montserrat 	 Elo: 771
+168 - Country: Belize 	 Elo: 764
+169 - Country: Moldova 	 Elo: 759
+170 - Country: India 	 Elo: 749
+171 - Country: Latvia 	 Elo: 748
+172 - Country: Chad 	 Elo: 748
+173 - Country: South Sudan 	 Elo: 748.0
+174 - Country: Afghanistan 	 Elo: 743.4
+175 - Country: Cook Islands 	 Elo: 743
+176 - Country: Dominica 	 Elo: 739
+177 - Country: Samoa 	 Elo: 739.0
+178 - Country: Somalia 	 Elo: 711
+179 - Country: Mauritius 	 Elo: 697
+180 - Country: Tonga 	 Elo: 697
+181 - Country: Barbados 	 Elo: 682
+182 - Country: São Tomé and Príncipe 	 Elo: 676
+183 - Country: Antigua and Barbuda 	 Elo: 674
+184 - Country: American Samoa 	 Elo: 669
+185 - Country: Bangladesh 	 Elo: 664
+186 - Country: Myanmar 	 Elo: 648
+187 - Country: Nepal 	 Elo: 639
+188 - Country: Djibouti 	 Elo: 636
+189 - Country: Cayman Islands 	 Elo: 625
+190 - Country: British Virgin Islands 	 Elo: 622
+191 - Country: Cambodia 	 Elo: 617
+192 - Country: Taiwan 	 Elo: 607
+193 - Country: Guam 	 Elo: 606
+194 - Country: Gibraltar 	 Elo: 595.4
+195 - Country: Maldives 	 Elo: 589
+196 - Country: Andorra 	 Elo: 580
+197 - Country: Mongolia 	 Elo: 575
+198 - Country: Sri Lanka 	 Elo: 574
+199 - Country: Pakistan 	 Elo: 571
+200 - Country: Turks and Caicos Islands 	 Elo: 548
+201 - Country: Anguilla 	 Elo: 544
+202 - Country: Bahamas 	 Elo: 540
+203 - Country: Seychelles 	 Elo: 529
+204 - Country: United States Virgin Islands 	 Elo: 520
+205 - Country: Laos 	 Elo: 492
+206 - Country: Brunei 	 Elo: 481
+207 - Country: Timor-Leste 	 Elo: 470.79999999999995
+208 - Country: Liechtenstein 	 Elo: 445
+209 - Country: Macau 	 Elo: 429
+210 - Country: Bhutan 	 Elo: 420
+211 - Country: San Marino 	 Elo: 368
